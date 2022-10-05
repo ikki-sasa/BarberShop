@@ -997,11 +997,7 @@ Phone version
     margin: 10px 60px;
   }
 
-  /* 
-  .section-prices-main-logo {
-    width: 15px;
-    height: 15px;
-  } */
+
   .section-prices-main-logo {
     width: 15px;
     height: 15px;
@@ -1125,15 +1121,6 @@ Phone version
     margin: -8rem 13.5rem;
     text-align: center;
   }
-
-  /* .section-services-title {
-    margin: 115px;
-    font-size: 13px;
-    position: absolute;
-    top: 45%;
-    text-align: center;
-} */
-
 
   .btn-section-services a {
     left: 40%;
@@ -1273,7 +1260,125 @@ Phone version
 
 }
 
+
+
 /* Pad  */
+
+@media screen and (min-width: 628px) {
+  .section-upper-img-2 {
+    margin: -40px -23px 0px;
+  }
+
+  .section-about-main-logo {
+    width: 15px;
+    margin: 6px 1px 17px;
+  }
+
+  .section-about-title {
+    margin: -36px 18px;
+    font-size: 15px;
+  }
+
+  .section-about h2 {
+    font-size: 15px;
+  }
+
+  .section-about-p2 {
+    font-size: 10px;
+  }
+
+  .section-about-t-hours {
+    display: contents;
+    font-size: 13px;
+  }
+
+  .section-about-p-hours {
+    font-size: 11px;
+    margin-left: 26px;
+    margin-top: -2px;
+  }
+
+  .section-services-title {
+    margin: 275px 0 0 9em;
+    top: 47%;
+    font-size: 25px;
+  }
+
+  .section-services-main-logo {
+    width: 25px;
+    margin: -16px 13.7em;
+  }
+
+  .section-services-h-title {
+    margin-top: 2em;
+  }
+
+  .btn-section-services button {
+    margin: 3.5rem 13.5rem;
+  }
+
+  .section-products-titles {
+    margin: -40px 77px;
+    font-size: 25px;
+    margin-bottom: auto;
+  }
+
+  .section-products-main-logo {
+    margin: 8px 166px;
+  }
+
+  .btn-section-products {
+    margin-left: -7.5rem;
+  }
+}
+
+@media screen and (min-width: 676px) {
+
+  .box-color {
+    font-size: 30px;
+    margin: -8px -14px -29px;
+  }
+
+  .section-about-p {
+    margin: 0 47px 0 30px;
+    font-size: 10px;
+  }
+
+  .section-upper-img-1 {
+    width: 35px;
+    margin: -45px 0 3em 10em;
+  }
+
+  .section-upper-img-2 {
+    width: 72%;
+    margin: -24px -23px 0px;
+  }
+
+  .section-services-title {
+    margin: 275px 0 0 10em;
+    top: 50.5%;
+    font-size: 25px;
+  }
+
+  .section-services-main-logo {
+    margin: -20px 15.7em;
+  }
+
+  .btn-section-services button {
+    margin: 5.5rem 13.5rem;
+  }
+
+  .section-products-main-logo {
+    width: 25px;
+  }
+
+  .section-products-titles {
+    margin: -40px 77px;
+    font-size: 25px;
+    margin-bottom: auto;
+  }
+}
+
 @media screen and (min-width: 768px) {
   .hero {
     margin-bottom: 3em;
@@ -1325,7 +1430,7 @@ Phone version
   }
 
   .section-upper-img-2 {
-    width: 70%;
+    width: 62%;
     margin: -25px 0 0;
   }
 
@@ -1376,17 +1481,17 @@ Phone version
   }
 
   .section-services-main-logo {
-    width: 16px;
-    margin: -16px 22.8em;
+    width: 25px;
+    margin: -25px 19em;
   }
 
   .section-services-title {
-    margin: 339px;
+    margin: 339px 0 0 12em;
     top: 53%;
   }
 
   .btn-section-services button {
-    margin: 9.5rem 16rem;
+    margin: 10.5rem 16rem;
   }
 
   .container-services .box-1 {
@@ -1407,7 +1512,7 @@ Phone version
   }
 
   .section-products-main-logo {
-    margin: 15px 290px;
+    margin: 1em 23.5em;
   }
 
   .btn-section-products {
@@ -1467,6 +1572,93 @@ Phone version
 
   .footer img {
     width: 10%;
+  }
+}
+
+@media screen and (min-width: 865px) {
+  .section-about-title {
+    margin: -44px 20px;
+  }
+
+  .section-services-title {
+    margin: 339px 0 0 14em;
+    top: 60%;
+  }
+
+  .section-services-main-logo {
+    width: 25px;
+    margin: -25px 22.5em;
+  }
+
+  .btn-section-services button {
+    margin: 14.5rem 16rem;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .section-services-title {
+    margin: 343px 0 0 16em;
+    top: 69%;
+  }
+
+
+  .section-about-p2 {
+    font-size: 13px;
+  }
+
+  .section-services-main-logo {
+    width: 25px;
+    margin: -25px 26.5em;
+  }
+
+  .btn-section-services button {
+    margin: 19.5rem 17rem;
+  }
+
+  .btn-section-products {
+    margin-left: 4.5rem;
+  }
+
+  .section-products-main-logo {
+    margin: 1em 34.5em;
+  }
+
+  .hair-styles {
+    margin-left: 1em;
+    position: absolute;
+    margin-top: 9em;
+  }
+
+  .prices-services {
+    width: 5%;
+    font-size: 15px;
+    margin-left: -8em;
+    line-height: 2.8em;
+    margin-top: 9em;
+  }
+
+  .pricing h2 {
+    font-size: 15px;
+    margin-left: -155px;
+  }
+
+  .reviews {
+    width: 65%;
+    height: 356px;
+  }
+
+  .reviews-img-face {
+    width: 40%;
+    height: 60%;
+    margin: 8px;
+  }
+
+  .reviews h3 {
+    display: flex;
+    font-size: 60px;
+    position: absolute;
+    left: 65%;
+    margin-top: -5em;
   }
 }
 
@@ -1606,6 +1798,90 @@ Phone version
 
   .footer img {
     width: 8%;
+  }
+}
+
+@media screen and (min-width: 1080px) {
+  .section-services-title {
+    margin: 464px;
+    top: 62.5%;
+  }
+
+  .section-services-title {
+    font-size: 22px;
+  }
+
+  .section-services-h-title {
+    margin-top: 3em;
+  }
+
+  .btn-section-services button {
+    margin: 39em 17rem 0;
+  }
+}
+
+@media screen and (min-width: 1180px) {
+  .section-services-title {
+    margin: 464px 0 0 23.5em;
+    top: 69.5%;
+  }
+
+  .section-services-main-logo {
+    width: 16px;
+    margin: -20px 35em;
+  }
+
+  .btn-section-services button {
+    margin: 46em 17rem 0;
+  }
+
+  .btn-section-products button {
+    margin-left: 27rem;
+  }
+
+  .section-products-main-logo {
+    margin: 13px 45em;
+  }
+
+  .section-products-titles {
+    font-size: 25px;
+  }
+
+  .hair-styles {
+    margin-top: 12em;
+  }
+
+  .prices-services {
+    width: 1%;
+    font-size: 15px;
+    margin-left: -3em;
+    line-height: 2.8em;
+    margin-top: 10em;
+  }
+}
+
+@media screen and (max-width: 1300px) {
+  .section-services-title {
+    margin: 464px 0px 0px 26em;
+    top: 78.5%;
+  }
+
+  .section-services-main-logo {
+    width: 25px;
+    margin: -24px 38.5em;
+  }
+
+  .btn-section-services button {
+    margin: 54em 20rem 0;
+  }
+
+  .btn-section-products button {
+    margin-left: 30.5rem;
+  }
+
+  .section-products-main-logo {
+    width: 25px;
+    margin: 8px 50em;
   }
 }
 
@@ -1776,7 +2052,7 @@ Phone version
   }
 
   .btn-section-services button {
-    margin: 80em 19rem;
+    margin: 84em 19rem;
   }
 
   .section-shop {
@@ -1836,7 +2112,7 @@ Phone version
 
 
   .btn-section-products button {
-    margin-left: 43rem;
+    margin-left: 34rem;
     width: 150px;
     height: 45px;
     padding: 5px;
@@ -1844,7 +2120,8 @@ Phone version
   }
 
   .hair-styles {
-    margin-left: -25rem;
+    margin-left: 2rem;
+    margin-top: 12em;
   }
 
   /* start of the prices    */
@@ -1976,10 +2253,12 @@ Phone version
   }
 }
 
+
+
 @media screen and (min-width: 1920px) {
 
   .section-services-title {
-    margin: 46rem;
+    margin: 55rem;
     top: 95%;
   }
 
@@ -1999,6 +2278,11 @@ Phone version
   .section-products-titles {
     margin: -1em -3em 0px 0px;
     font-size: 50px;
+  }
+
+
+  .reviews-img-quotes {
+    margin-left: 81em;
   }
 }
 
